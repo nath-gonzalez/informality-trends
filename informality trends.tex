@@ -17,7 +17,11 @@
 \usepackage{lipsum}
 \onehalfspacing
 \usepackage{babel}
-
+\usepackage{ctable}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
 
 \begin{document}
 \title{Informality Trend in LAC: Small and Disappointing Progress }
@@ -36,14 +40,32 @@
     \end{itemize}
 \end{itemize}
 
-\begin{figure} [H]
-    \raggedright
-    \caption{La proporción de mexicanos que tiene una mala percepción sobre los inmigrantes es más alta que la del país promedio de AL}
-    \subcaption*{\textit{Porcentaje en cada categoría de respuesta (\%)}}
-    \includegraphics[scale=0.4]{FIGURAS CH3/MX_percep1.pdf}
-    
-    \footnotesize{\note{Fuente: Latinobarómetro.}}
-    \label{fig:MX_percep1}
+\subsection{Regional figures}
+
+\begin{figure}
+\centering
+  \caption{Evolution of alternative informality related measures}
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{latex/figures/LAC_ipo_fig1.png}
+  \label{fig:sub1}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
+  \centering
+  \includegraphics[width=1\linewidth]{latex/figures/LAC_ipo_fig2.png}
+  \label{fig:sub2}
+\end{subfigure}
+\label{fig:test}
+\source{Source: SEDLAC and ILO.}
+
+\footnotesize{\note{Note SEDLAC: Both figures show unweighted means of country level indicators. The countries included in the sample are Argentina, Bolivia, Brazil, Colombia, Costa Rica, Ecuador, Honduras, Mexico, Panama, Peru, Paraguay, El Salvador and Uruguay. Some countries don’t have information for the entire period: Bolivia and Brazil have missing values in 2010; Colombia have missing values in 2006 and 2007; Honduras have missing values in 2020-2021; Mexico have missing values 2005, 2007, 2009, 2011, 2013, 2015, 2017, 2019, 2020, 2021; Panama and El Salvador have missing values 2020; and Uruguay have missing values in 2021. In that cases we interpolate the sample using the closest last year value. Note ILO: The serie is a modeled estimated informal employment rate by ILO. }}
 \end{figure}
+
+\subsection{Household cross country figures}
+
+\subsection{Individual cross country figures}
+
+
+
 
 \end{document}
