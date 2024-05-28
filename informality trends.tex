@@ -78,7 +78,6 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
   \label{fig:labmarket2}
 \end{subfigure}
 
-
 \footnotesize{Source: Household Surveys-SEDLAC.}
 \footnotesize{Note: Each bar is a weighted average of countries, weighting by total workers in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019. Panel b: "LF higher education" corresponds to people in the workforce who have completed higher education.}
 
@@ -96,71 +95,58 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
         \end{figure}
 
 \begin{figure}[htb!]
-\justifying
+\centering
   \caption{Structure of salaried and self-employed workers}
-  \subcaption{Educational level}
-\begin{subfigure}{.9\textwidth}
+  \subcaption{\textbf{Education level}}
+    \begin{subfigure}{.5\textwidth}
   \centering
-    \text{$a. Salaried$}
+    \footnotesize{$Salaried$}
   \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Salaried-education.png}
   \label{fig:salariededuc}
-\end{subfigure}
-\begin{subfigure}{.9\textwidth}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$b. Self employed$}
+    \footnotesize{$Self employed$}
   \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Self employed-education.png}
   \label{fig:selfeduc}
 \end{subfigure}
 
-\afterpage{
-
-\subcaption{Firm type}
-\begin{subfigure}{.9\textwidth}
+\subcaption{\textbf{Firm type}}
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$a. Salaried$}
   \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Salaried-firmsize.png}
   \label{fig:salariedfirmsize}
-\end{subfigure}
-
-\begin{subfigure}{.9\textwidth}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$b. Selfemployed$}
 \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Self employed-firmsize.png}
   \label{fig:selfirmsize}
 \end{subfigure}
-\clearpage}
 
-
-\subcaption{Sector}
-\begin{subfigure}{.9\textwidth}
+\subcaption{\textbf{Sector}}
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$a. Salaried$}
   \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Salaried-sector.png}
   \label{fig:salariedsector}
-\end{subfigure}
-
-\begin{subfigure}{.9\textwidth}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$b. Selfemployed$}
 \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Self employed-sector.png}
   \label{fig:selfsector}
 \end{subfigure}
 
-\subcaption{Contributions to SS}
-\begin{subfigure}{.9\textwidth}
+\subcaption{\textbf{Contributions to SS}}
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$a. Salaried$}
   \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Salaried-SS.png}
   \label{fig:salariedSS}
-\end{subfigure}
-
-\begin{subfigure}{.9\textwidth}
+\end{subfigure}%
+\begin{subfigure}{.5\textwidth}
   \centering
-    \text{$b. Selfemployed$}
 \includegraphics[width=1\textwidth]{latex/figures/Snapshot/Self employed-SS.png}
   \label{fig:selfSS}
 \end{subfigure}
-
+\justifying
 \footnotesize{Source: Household Surveys-SEDLAC.}
 \footnotesize{Note: Each bar is a weighted average of countries, weighting by total workers in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019. Argentina and Chile are excluded from contributions to Social security of self-employed graph, because this question is available only for salaried workers. Also, Chile is excluded from calculations of self-employed in sectors, because is only for salaried workers.}
 
@@ -171,7 +157,7 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \item Structure of Employment II - Sector and Contribution to SS
 
 \begin{figure}[!htb]
-        \centering
+        \justifying
         \caption{Structure of employment by sector}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/Structure of employment and sector.png}
         \label{fig:sector}
@@ -182,7 +168,7 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
         
 \item Employment by Firm Size
 \begin{figure}[!htb]
-        \centering
+        \justifying
         \caption{Structure of employment by firm size}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/Structure of employment by firm size.png}
         \label{fig:firmsize}
@@ -195,22 +181,19 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
  \item Social security contributions
     \begin{itemize}
         \begin{figure}[!htb]
-        \centering
-        \caption{Social security contributions status by group}     
+        \justifying
+        \caption{Does not contributes to social security by group}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/Social security contributions.png}
         \label{fig:SScontributions}
         \footnotesize{Source: Household Surveys-SEDLAC.}
         \footnotesize{Note: Each bar is a weighted average of countries, weighting by total workers in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019. \textbf{The groups are not exclusive.}}
         \end{figure}
 
-        
-    \end{itemize}
-
 
 \item Life cycle- self employment and salaried informal
  \begin{figure}[!htb]
-        \centering
-        \caption{Age profile last year available}     
+        \justifying
+        \caption{Age profile}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/age_profile.png}
         \label{fig:age_pro}
         \footnotesize{Source: Household Surveys-SEDLAC.}
@@ -221,16 +204,13 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \end{itemize}
 
      
-
-     
      
 \section{Dynamics: last 20 years}  
- 
 
 \subsection{Regional figures}
 
 \begin{figure}[!htb]
-\centering
+\justifying
   \caption{Evolution of alternative informality related measures}
 \begin{subfigure}{.5\textwidth}
   \centering
@@ -251,59 +231,62 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \subsection{Cross country figures}
 \subsubsection{Household}
 \begin{figure}[!htb]
-    \centering
-     \caption{Snapshot of LAC’s household contribution status -last available year}     \includegraphics[scale=.3]{latex/figures/Household/snapshot_household.png}
+    \justifying
+     \caption{Snapshot of LAC’s household contribution status}     \includegraphics[scale=.3]{latex/figures/Household/snapshot_household.png}
     \label{fig:Householdlastyear}
-    \footnotesize{Note: Some countries don’t have information for 2021, in that cases we use the last available year, Chile 2017, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
+    \footnotesize{Source: Household Surveys-SEDLAC.}
+    \footnotesize{Note: Each bar is a weighted average of each country, weighting by total workers in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
 \end{figure}
 
 \begin{figure}[!htb]
-    \centering
-     \caption{Snapshot of LAC’s household employment condition for 2005-2021}     
-     \includegraphics[scale=.3]{latex/figures/Household/snapshot_household_2005-2021.png}
+    \justifying
+    \caption{Snapshot of LAC’s household employment condition for 2005-2021}     
+    \includegraphics[scale=.3]{latex/figures/Household/snapshot_household_2005-2021.png}
     \label{fig:Household20052021}
-    \footnotesize{Note: Some countries don’t have information for the 2005 or 2020, in those cases we are using the closest year, for Bolivia 2002; Chile 2006 and 2017; Colombia 2008; Guatemala 2004 and 2014; Mexico 2006 and 2018; Honduras 2019 and Uruguay 2019.}
- 
-        
+    \footnotesize{Source: Household Surveys-SEDLAC.}
+    \footnotesize{Note: Each bar is a weighted average of each country, weighting by total workers in 2005 and 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
     \footnotesize{Note: The figure reports the household contribution status to social security of households with at least one worker.   All contribute: corresponds to the percentage of households where all workers contribute to SS. Some contribute: corresponds to the percentage of households where some workers contribute to SS but not all. DNC – has partner: corresponds to the percentage of households where any worker contributes to SS, but the head of household have a partner. DNC – no partner: corresponds to the percentage of households where any worker contributes to SS, but the head of household do not have a partner. }
 \end{figure}
 
 \subsubsection{Individual level} %De este nombre no estoy segura
 
 \begin{figure}[!htb]
-    \centering
+    \justifying
      \caption{Salaried who don’t contribute to SS}     
      \includegraphics[scale=.3]{latex/figures/Snapshot/snapshot_informal_ss_dep.png}
     \label{fig:SalariedSS}
-    \footnotesize{Note: Some countries don’t have information for the chosen years, in that cases we are using the closest year, for Bolivia 2002; Chile 2010; Colombia 2008; Guatemala 2004 and 2014; Mexico 2006 and 2018; Honduras 2019 and Uruguay 2019.}
+    \footnotesize{Source: Household Surveys-SEDLAC.}
+    \footnotesize{Note: Each bar is a weighted average of each country, weighting by total workers in 2005 and 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
 \end{figure}
 
 \begin{figure}[!htb]
-    \centering
+    \justifying
      \caption{Salaried who work at small firms}     
      \includegraphics[scale=.3]{latex/figures/Snapshot/snapshot_dependents_small.png}
     \label{fig:SalariedSmall}
-    \footnotesize{Note: Some countries don’t have information for the chosen years, in that cases we are using the closest year, for Bolivia 2002; Chile 2010; Colombia 2008; Guatemala 2004 and 2014; Mexico 2006 and 2018; Honduras 2019 and Uruguay 2019.}
+    \footnotesize{Source: Household Surveys-SEDLAC.}
+    \footnotesize{Note: Each bar is a weighted average of each country, weighting by total workers in 2005 and 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
 \end{figure}
-\todo[inline]{Check footnote of figure \ref{fig:Oaxaca} and make sure the title is correct. Let's include a small appendix with the methodolgy details.}
+
+
+\todo[inline]{Check footnote of figure \ref{fig:Oaxaca_share} and make sure the title is correct. Let's include a small appendix with the methodolgy details.}
        \begin{figure}[!htb]
-        \centering
+        \justifying
         \caption{Microeconometric decomposition of evolution of workers who does not contribute to ss 2005-2021}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/Oaxaca decomposition share.png}
         \label{fig:Oaxaca_share}
-        \footnotesize{Source:Household Surveys-SEDLAC.}
-        \footnotesize{Note: Latin American simple average for last year available. Some LAC countries don’t have information for 2021, in that cases we use the last available year, Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
+        \footnotesize{Source: Household Surveys-SEDLAC.}
+        \footnotesize{Note: Each bar is the share of change in Social security contributions corresponds to the share of coefficients and the share of the endowment effects. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
         \end{figure}
-\todo[inline]{please include a figure with the actual change in ssc where you stack the level of coefficients and the level of the endowment effects.}
 
 \begin{figure}[!htb]
-        \centering
+        \justifying
         \caption{Microeconometric decomposition of evolution of workers who does not contribute to ss 2005-2021}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/Oaxaca decomposition level.png}
         \label{fig:Oaxaca_level}
-        \footnotesize{Source:Household Surveys-SEDLAC.}
-        \footnotesize{Note: Latin American simple average for last year available. Some LAC countries don’t have information for 2021, in that cases we use the last available year, Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
+        \footnotesize{Source: Household Surveys-SEDLAC.}
+        \footnotesize{Note: Each bar is the actual change in Social security contributions corresponds to the level of coefficients and the level of the endowment effects. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
         \end{figure}
-
+\end{itemize}
 
 \end{document}
