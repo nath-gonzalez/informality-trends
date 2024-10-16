@@ -17,6 +17,7 @@
 \usepackage{lipsum}
 \onehalfspacing
 \usepackage{babel}
+\usepackage{tikz}
 \usepackage{ctable}
 \usepackage{booktabs}
 \usepackage{graphicx}
@@ -159,6 +160,17 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \footnotesize{Note: Each bar is a simple average of country level weighted average in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019. Argentina and Chile are excluded from contributions to Social security of self-employed graph, because this question is available only for salaried workers. Also, Chile is excluded from calculations of self-employed in sectors, because is only for salaried workers.}
 
 \end{figure}
+
+\begin{figure}[!htb]
+        \centering
+        \caption{Structure of employment}     
+        \includegraphics[scale=.3]{latex/figures/Snapshot/Snapshot salaried and self-employed.png}
+        \label{fig:employmentbars}
+\justifying
+\footnotesize{Source: Household Surveys-SEDLAC.}
+\footnotesize{Note: Each bar is a simple average of country level weighted average in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019. Argentina and Chile are excluded from contributions to Social security of self-employed graph, because this question is available only for salaried workers. Also, Chile is excluded from calculations of self-employed in sectors, because is only for salaried workers.}
+
+\end{figure}
          
 
         
@@ -201,11 +213,11 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \item Life cycle- self employment and salaried informal
  \begin{figure}[!htb]
         \justifying
-        \caption{Age profile}     
+        \caption{Average Age profile in a LAC country}     
         \includegraphics[scale=.3]{latex/figures/Snapshot/age_profile.png}
         \label{fig:age_pro}
         \footnotesize{Source: Household Surveys-SEDLAC.}
-        \footnotesize{Note: Each line is a weighted average of countries, weighting by total workers in 2021. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Some countries don’t have information for 2021, in that cases we use the last available year, for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
+        \footnotesize{Note: Each line is a simple average of country level data. Country level data is computed weighting by total workers. Countries included in the sample: Argentina, Bolivia, Brazil, Chile, Colombia, Costa Rica, Dominican Republic, Ecuador, El Salvador, Guatemala, Honduras, Mexico, Panama, Peru, Paraguay and Uruguay. Data corresponds to 2021 except for  Chile (2022), Guatemala (2014); Honduras (2019); Mexico (2018) and Uruguay (2019).}
         \end{figure}
 \item Decomposition of changes in the informality rate
 
@@ -256,8 +268,6 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
     \footnotesize{Note: Each bar is a weighted average of each country, weighting by total workers in 2005 and 2021.  Data corresponds to 2021 except for Chile 2022, Guatemala 2014; Honduras 2019; Mexico 2018 and Uruguay 2019.}
 \end{figure}
 
-
-\todo[inline]{Check footnote of figure \ref{fig:Oaxaca_share} and make sure the title is correct. Let's include a small appendix with the methodolgy details.}
       
 
 \begin{figure}[!htb]
@@ -271,6 +281,25 @@ Figures \ref{fig:labmarket1} and \ref{fig:labmarket2} shows the structure of the
 \end{itemize}
 
 \section{Appendix}
+\subsection{Oaxaca methodology decomposition}
+In order to determine the extent to which the change in the formality rate among wage earners in each country being studied is due to variations in the composition of employment (composition effect) and to what extent it is due to the formality rate of each group of workers (coefficient effect), an "aggregate" decomposition was calculated as a first step, as follows:
+
+${\Delta}LF=\sum_{g=1}^{G}w_g^{0}.{\Delta}LF_g+\sum_{g=1}^{G}LF_g^{0}.{\Delta}w_g$
+
+where:
+\begin{itemize}
+
+\item ${\Delta}LF$:change in labour formality rate between $t=1$ and $t=0$ 
+\item ${\Delta}LF_g$:change in labour formality rate between $t=1$ and $t=0$ in subgroup g
+\item ${\Delta}LF_g^{0}$:Labour formality rate of subgroup g in $t=0$
+\item $w_g^{0}$:participation rate of group g in total wage earnerns in $t=0$
+\item ${\Delta}w_g$:change in participation rate of group g in total wage earners between $t=1$ and $t=0$ 
+\end{itemize}
+
+The first term in the equation reflects the coefficient effect, which is the weighted sum of the changes in the formality rate of each of the various subgroups, where the weighted factor is the initial weight of each subgroup in total wage-earning employment. The second term reflects the composition effect, which results from the weighted sum of the changes in occupational structure, where the weighted factor is the initial specific formality rate of each group.
+This exercise will be carried out separately for the dimensions of greatest significance for the structure of wage-earning employment in the countries concerned: branch of activity, size of enterprise, educational level and age.
+
+
 
 \begin{landscape}
 \begin{figure}[!htb]
